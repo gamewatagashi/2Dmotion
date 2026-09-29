@@ -1,8 +1,8 @@
-streamlit>=1.42,<2
-moviepy==1.0.3
-librosa==0.10.2.post1
+streamlit
 numpy==1.26.4
+librosa==0.10.2.post1
 Pillow==10.4.0
+moviepy==1.0.3
 soundfile==0.12.1
 imageio==2.34.2
 imageio-ffmpeg==0.5.1
