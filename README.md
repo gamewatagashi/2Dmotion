@@ -1,7 +1,43 @@
-# Audio-Reactive Motion Graphics Generator
+# 🎬 MV Generator
 
-Pythonを使って、音楽（MP3）のビートや周波数に反応するモーショングラフィックス動画（MP4）を自動生成するスクリプトです。
+音楽を解析して、ビート・音量・音の強さに合わせて
+映像を自動生成するStreamlitアプリです。
 
-## 必要なライブラリ
+## 主な機能
+
+- MP3 / WAV / M4A / OGGのアップロード
+- 複数画像のアップロード
+- 音楽のBPM解析
+- ビート解析
+- 音量解析
+- 音の強さ解析
+- 自動ズーム
+- カメラシェイク
+- グリッチ
+- フラッシュ
+- スピードライン
+- 色反転
+- ランダム映像生成
+- 16:9 / 9:16対応
+- MP4出力
+
+## ローカル実行
+
 ```bash
-pip install librosa moviepy pillow numpy
+pip install -r requirements.txt
+streamlit run app.py
+
+### 今回の初版で実現していること
+
+**音楽をアップロード**
+
+↓
+
+**Librosaが解析**
+
+```text
+BPM
+│
+├── ビート
+├── 音量
+└── 音の強さ
