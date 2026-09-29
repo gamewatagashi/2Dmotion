@@ -1,0 +1,10 @@
+moviepy==1.0.3
+librosa==0.10.2.post1
+numpy==1.26.4
+Pillow==10.4.0
+soundfile==0.12.1
+imageio==2.34.2
+imageio-ffmpeg==0.5.1
+decorator==4.4.2
+proglog==0.1.10
+tqdm==4.66.5
